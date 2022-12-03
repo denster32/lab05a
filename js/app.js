@@ -11,7 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b){//eslint-disable-line
   let mySum = a + b;
   let sumStr = `The sum of ${a} and ${b} is ${mySum}.`;
-  return [mySum];
+  return [mySum, sumStr];
 }
 
 // Here is the test for sum(); uncomment it to run it
